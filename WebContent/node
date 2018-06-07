@@ -1,0 +1,13 @@
+MD5加密
+	MD5：信息摘要算法（第五版）
+		特点：
+			1、压缩性（不管文件大小，信息摘要一样大）
+			2、易计算
+			3、抗修改性【文件一致性检验】（文件一旦修改，信息摘要就会发生变化）
+			4、不可逆（密码加密）
+			5、强碰撞性
+			
+session.save(user);
+user = session.get(class,id);
+user.setName(name);
+session.delete(user);
