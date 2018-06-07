@@ -11,3 +11,5 @@ session.save(user);
 user = session.get(class,id);
 user.setName(name);
 session.delete(user);
+
+这是git测试
